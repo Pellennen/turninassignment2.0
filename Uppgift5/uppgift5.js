@@ -7,14 +7,13 @@ let four = 0;
 let five = 0;
 let six = 0;
 
-function randomDice()
-{
-    for (i = 0 ; i < 1000; i++)
-    {
-       arr[i] = Math.floor((Math.random() * 6) + 1); // +1 gör så man ej får ett nolltal
+function randomDice() {
+    for (i = 0; i < 1000; i++) {
+        arr[i] = Math.floor((Math.random() * 6) + 1); 
     }
-   
+    
 }
+
 function print()
 
 {
@@ -43,6 +42,5 @@ function print()
     }
     console.log("Ones:"+ " " + one / 10, "Twos:"+ " " + two / 10, "threes:" + " " + three / 10, "fours:" + " " + four / 10, "fives:" + " " + five / 10, "sixes:" + " " + six / 10);
 }
-randomDice()
-print()
-
+randomDice();
+print();
