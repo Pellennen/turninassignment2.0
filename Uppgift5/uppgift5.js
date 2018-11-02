@@ -40,7 +40,7 @@ function print()
         }
         
     }
-    console.log("Ones:"+ " " + one / 10, "Twos:"+ " " + two / 10, "threes:" + " " + three / 10, "fours:" + " " + four / 10, "fives:" + " " + five / 10, "sixes:" + " " + six / 10);
+    console.log("Ones: " + one / 10 + "% Twos: " + two / 10 +"% threes: " + three / 10 +  "% fours: " + four / 10 + "% fives: " + five / 10 +  "% sixes: " + six / 10 + "%");
 }
 randomDice();
 print();

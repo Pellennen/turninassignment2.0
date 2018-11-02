@@ -14,14 +14,13 @@ let inputNumber = parseInt(prompt("Choose a number between 1-1000 och calculate 
 function fakultet(inputNumber)
 {
     let x = 1;
-    for (i = 1 ; i < inputNumber+1; i++)
+    for (i = 1 ; i < inputNumber+1; i++) // i = 2, i++ i = 3;
     {
-       x = x*i;
-       
+        x *= i; // x = 1, 12 =  x=3,
     }
     return x;
 }
-document.getElementById("fakulteten").innerHTML = "The factorial of" + " " + inputNumber + "=" + " " + fakultet(inputNumber);
+document.getElementById("fakulteten").innerHTML = "The factorial of" + " " + inputNumber + " = " + fakultet(inputNumber);
 
 </script>
 
